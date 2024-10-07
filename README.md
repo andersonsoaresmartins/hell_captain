@@ -38,7 +38,7 @@ You should see the following output in your console:
 
 Hello, Captain!
 
-Project Structure
+## Project Structure
 
 .
 ├── Dockerfile
