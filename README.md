@@ -18,7 +18,7 @@ Follow the steps below to build and run the Docker image:
 
 ```
 git clone https://github.com/yourusername/hello_captain-docker.git
-cd hello_captain-docker
+cd hello_captain
 ```
 
 ### Step 2: Build the Docker Image
