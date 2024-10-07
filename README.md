@@ -17,7 +17,7 @@ Follow the steps below to build and run the Docker image:
 ### Step 1: Clone the Repository
 
 ```
-git clone https://github.com/yourusername/hello_captain-docker.git
+git clone https://github.com/andersonsoaresmartins/hello_captain.git
 cd hello_captain
 ```
 
@@ -44,27 +44,22 @@ Hello, Captain!
 ├── Dockerfile
 └── README.md
 
+
 Dockerfile
 
 The Dockerfile is as follows:
 
-# Use the latest Alpine base image
+### Use the latest Alpine base image
 FROM alpine:latest
 
-# Command to print "Hello, Captain!" and exit
+### Command to print "Hello, Captain!" and exit
 CMD ["echo", "Hello, Captain!"]
 
-License
+
+### License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
 Contributing
-
 Feel free to fork this project, submit issues, or make pull requests. Contributions are welcome!
-
 Contact
-
-If you have any questions or suggestions, please contact me at [your-email@example.com].
-
-You can modify the placeholder values, like the repository URL, username, and email, to match your project.
-
+If you have any questions or suggestions, please contact me at [asmartins@live.com].
