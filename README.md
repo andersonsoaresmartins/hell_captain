@@ -17,25 +17,23 @@ Follow the steps below to build and run the Docker image:
 ### Step 1: Clone the Repository
 
 ```
-bash
-git clone https://github.com/yourusername/hello-captain-docker.git
-cd hello-captain-docker
+git clone https://github.com/yourusername/hello_captain-docker.git
+cd hello_captain-docker
 ```
 
 ### Step 2: Build the Docker Image
 
 Run the following command in the root directory where the Dockerfile is located:
 ```
-bash
-docker build -t hello-captain .
+docker build -t hello_captain .
 ```
 
 ### Step 3: Run the Docker Container
 
 After the image is built, run the container with the following command:
-
-docker run hello-captain
-
+```
+docker run hello_captain
+```
 You should see the following output in your console:
 
 Hello, Captain!
